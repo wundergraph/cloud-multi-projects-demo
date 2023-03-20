@@ -30,7 +30,8 @@ project-b/
 Try it out (replace `YOUR_PROJECT_NAME` with your project name in your [`wg.toml`](wg.toml) file):
 
 ```shell
-curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
+curl -X GET https://{YOUR_PROJECT_NAME-A}.wundergraph.dev/operations/Dragons
+curl -X GET https://{YOUR_PROJECT_NAME-B}.wundergraph.dev/operations/Dragons
 ```
 
 Repeat the steps for the second project `{YOUR_PROJECT_NAME-B}`.
