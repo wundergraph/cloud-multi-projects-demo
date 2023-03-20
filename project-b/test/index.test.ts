@@ -9,16 +9,9 @@ afterAll(() => wg.stop());
 describe('test Countries API', () => {
 	test('country by code', async () => {
 		const result = await wg.client().query({
-			operationName: 'Country',
+			operationName: 'get',
 		});
-		const country = result.data?.countries_country;
-		expect(country?.capital).toBe('Berlin');
-	});
-
-	test('continents', async () => {
-		const result = await wg.client().query({
-			operationName: 'Continents',
-		});
-		expect(result.data?.countries_continents.length).toBe(7);
+		const project = result.data?.project;
+		expect(project).toBe('B');
 	});
 });
