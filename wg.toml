@@ -4,7 +4,7 @@
 version = 1
 
 [[projects]]
-name = "project-a" # The name of the project
+name = "project-a" # The name of cloud project
 workspace = "/project-a"
 
 [[projects]]
