@@ -3,10 +3,10 @@
 
 version = 1
 
-[projects]
+[[projects]]
 name = "project-a" # The name of the project
 workspace = "/project-a"
 
-[projects]
+[[projects]]
 name = "project-b"
 workspace = "/project-b"
