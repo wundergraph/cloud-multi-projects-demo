@@ -1,4 +1,4 @@
-# Multi-Project Cloud Demo
+# Multi-Projects Cloud Demo
 
 This repository demonstrates how to host multiple WunderGraph Cloud projects in a single NPM workspace to deploy them as individual WunderGraph Cloud projects.
 The right workspace path is read at build time from the [`wg.toml`](wg.toml) file. Please modify the file to match your project names.
