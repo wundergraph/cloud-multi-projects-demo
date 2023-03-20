@@ -25,7 +25,7 @@ project-b/
 4. Import the forked repo
 5. Deploy the project
 
-Try it out (replace `YOUR_PROJECT_NAME` with your project name):
+Try it out (replace `YOUR_PROJECT_NAME` with your project name in your [`wg.toml`](wg.toml) file):
 
 ```shell
 curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
