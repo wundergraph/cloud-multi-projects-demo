@@ -23,7 +23,7 @@ project-b/
 
 1. Fork this repo
 2. Sign in to [WunderGraph Cloud](https://cloud.wundergraph.com)
-3. Create a new project
+3. Create a new project with the name `{YOUR_PROJECT_NAME-A}`
 4. Import the forked repo
 5. Deploy the project
 
@@ -32,6 +32,8 @@ Try it out (replace `YOUR_PROJECT_NAME` with your project name in your [`wg.toml
 ```shell
 curl -X GET https://{YOUR_PROJECT_NAME}.wundergraph.dev/operations/Dragons
 ```
+
+Repeat the steps for the second project `{YOUR_PROJECT_NAME-B}`.
 
 ### Make changes
 
