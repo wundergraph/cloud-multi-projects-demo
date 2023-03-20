@@ -26,6 +26,7 @@ project-b/
 3. Create a new project with the name `{YOUR_PROJECT_NAME-A}`
 4. Import the forked repo
 5. Deploy the project
+6. Create a second project with the name `{YOUR_PROJECT_NAME-B}`
 
 Try it out (replace `YOUR_PROJECT_NAME` with your project name in your [`wg.toml`](wg.toml) file):
 
@@ -33,8 +34,6 @@ Try it out (replace `YOUR_PROJECT_NAME` with your project name in your [`wg.toml
 curl -X GET https://{YOUR_PROJECT_NAME-A}.wundergraph.dev/operations/Dragons
 curl -X GET https://{YOUR_PROJECT_NAME-B}.wundergraph.dev/operations/Dragons
 ```
-
-Repeat the steps for the second project `{YOUR_PROJECT_NAME-B}`.
 
 ### Make changes
 
