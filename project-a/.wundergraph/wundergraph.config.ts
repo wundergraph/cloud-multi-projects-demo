@@ -2,14 +2,9 @@ import { configureWunderGraphApplication, cors, EnvironmentVariable, introspect,
 import server from './wundergraph.server';
 import operations from './wundergraph.operations';
 
-const countries = introspect.graphql({
-	apiNamespace: 'countries',
-	url: 'https://countries.trevorblades.com/',
-});
-
 // configureWunderGraph emits the configuration
 configureWunderGraphApplication({
-	apis: [countries],
+	apis: [],
 	server,
 	operations,
 	codeGenerators: [
