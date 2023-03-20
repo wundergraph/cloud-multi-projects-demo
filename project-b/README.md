@@ -1,5 +1,11 @@
 # WunderGraph simple example
 
+## Getting started
+
+```shell
+npm start
+```
+
 #### Get project
 
 ```shell
