@@ -1,27 +1,9 @@
 # WunderGraph simple example
 
-#### Getting started
+#### Get project
 
 ```shell
-npm install && npm start
-```
-
-#### Get all Continents
-
-```shell
-curl http://localhost:9991/operations/Continents
-```
-
-#### Get Country
-
-```shell
-curl http://localhost:9991/operations/Country
-```
-
-#### Get user
-
-```shell
-curl http://localhost:9991/operations/users/get?id=1
+curl http://localhost:9991/operations/get
 ```
 
 ## Learn More

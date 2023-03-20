@@ -19,6 +19,12 @@ project-b/
 ├─ package.json
 ```
 
+## Getting started
+
+```shell
+npm install && npm start
+```
+
 ### Deploy to WunderGraph Cloud
 
 1. Fork this repo
