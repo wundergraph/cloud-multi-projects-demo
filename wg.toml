@@ -7,7 +7,7 @@ version = 1
 
 # The key is the name of the project. It must be unique.
 [projects.project-a]
-workspace = "/path/to/your/workspace"
+workspace = "/project-a"
 
 [projects.project-b]
-workspace = "/path/to/your/workspace"
+workspace = "/project-b"
