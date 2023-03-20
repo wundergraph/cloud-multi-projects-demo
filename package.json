@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "workspaces": [
+    "project-a",
+    "project-b"
+  ]
+}
