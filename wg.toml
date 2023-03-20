@@ -1,0 +1,13 @@
+# This is a TOML document to configure your Wundergraph workspaces.
+# For more information, see https://docs.wundergraph.com/docs/cloud/configuration
+
+version = 1
+
+[projects]
+
+# The key is the name of the project. It must be unique.
+[projects.project-a]
+workspace = "/path/to/your/workspace"
+
+[projects.project-b]
+workspace = "/path/to/your/workspace"
