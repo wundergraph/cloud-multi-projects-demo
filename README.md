@@ -22,7 +22,7 @@ project-b/
 ## Getting started
 
 ```shell
-npm install
+npm i
 ```
 
 ### Deploy to WunderGraph Cloud
