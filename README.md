@@ -37,7 +37,7 @@ curl -X GET https://{YOUR_PROJECT_NAME-B}.wundergraph.dev/operations/get
 
 ### Make changes
 
-1. Make changes to the `main` branch, e.g. change the query in `.wundergraph/operations/Dragons.graphql`
+1. Make changes to the `main` branch, e.g. change the TypeScript operation in `.wundergraph/operations/get`
 2. Commit and push the changes
 
 See your changes live in less than a minute.
