@@ -4,10 +4,9 @@
 version = 1
 
 [projects]
-
-# The key is the name of the project. It must be unique.
-[projects.project-a]
+name = "project-a" # The name of the project
 workspace = "/project-a"
 
-[projects.project-b]
+[projects]
+name = "project-b"
 workspace = "/project-b"
