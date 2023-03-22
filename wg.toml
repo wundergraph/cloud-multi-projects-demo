@@ -5,8 +5,8 @@ version = 1
 
 [[projects]]
 name = "project-a" # The name of cloud project
-workspace = "/project-a"
+workspace = "/projects/a"
 
 [[projects]]
 name = "project-b"
-workspace = "/project-b"
+workspace = "/projects/b"
