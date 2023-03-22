@@ -3,7 +3,7 @@
 ## Getting started
 
 ```shell
-npm start
+npm i && npm start
 ```
 
 #### Get project
