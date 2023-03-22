@@ -12,7 +12,7 @@ cd projects/a && npm i
 cd projects/b && npm i
 ```
 
-> Note: You can also use PNPM, Yarn or any other package manager to manage your dependencies as a workspace.
+> **Note**: You can also use PNPM, Yarn or any other package manager to manage your dependencies as a workspace.
 
 ### Deploy to WunderGraph Cloud
 
