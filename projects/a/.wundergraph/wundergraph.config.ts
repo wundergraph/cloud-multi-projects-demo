@@ -1,4 +1,4 @@
-import { configureWunderGraphApplication, cors, EnvironmentVariable, introspect, templates } from '@wundergraph/sdk';
+import { configureWunderGraphApplication, cors, EnvironmentVariable, templates } from '@wundergraph/sdk';
 import server from './wundergraph.server';
 import operations from './wundergraph.operations';
 
@@ -7,14 +7,6 @@ configureWunderGraphApplication({
 	apis: [],
 	server,
 	operations,
-	codeGenerators: [
-		{
-			templates: [
-				// use all the typescript react templates to generate a client
-				...templates.typescript.all,
-			],
-		},
-	],
 	cors: {
 		...cors.allowAll,
 		allowedOrigins:
