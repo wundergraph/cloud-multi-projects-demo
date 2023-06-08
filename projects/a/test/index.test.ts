@@ -6,8 +6,8 @@ const wg = createTestServer({ fetch: fetch as any });
 beforeAll(() => wg.start());
 afterAll(() => wg.stop());
 
-describe('test Countries API', () => {
-	test('country by code', async () => {
+describe('test api', () => {
+	test('Should return A', async () => {
 		const result = await wg.client().query({
 			operationName: 'get',
 		});
